@@ -24,7 +24,7 @@ L 758.16 521.01
 L 758.16 71.4528 
 L 105.3 71.4528 
 z
-" style="fill:#eaeaf2;"/>
+" style="fill:#ffffff;"/>
    </g>
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
@@ -844,7 +844,7 @@ z
     </g>
    </g>
    <g id="patch_3">
-    <path clip-path="url(#p6552dbcb1a)" d="M 137.943 521.01 
+    <path clip-path="url(#p0526d63497)" d="M 137.943 521.01 
 L 399.087 521.01 
 L 399.087 97.07497 
 L 137.943 97.07497 
@@ -852,7 +852,7 @@ z
 " style="fill:#5875a4;stroke:#ffffff;stroke-linejoin:miter;"/>
    </g>
    <g id="patch_4">
-    <path clip-path="url(#p6552dbcb1a)" d="M 464.373 521.01 
+    <path clip-path="url(#p0526d63497)" d="M 464.373 521.01 
 L 725.517 521.01 
 L 725.517 92.860286 
 L 464.373 92.860286 
@@ -862,22 +862,22 @@ z
    <g id="patch_5">
     <path d="M 105.3 521.01 
 L 105.3 71.4528 
-" style="fill:none;stroke:#ffffff;stroke-linecap:square;stroke-linejoin:miter;stroke-width:1.25;"/>
+" style="fill:none;stroke:#262626;stroke-linecap:square;stroke-linejoin:miter;stroke-width:1.25;"/>
    </g>
    <g id="patch_6">
     <path d="M 758.16 521.01 
 L 758.16 71.4528 
-" style="fill:none;stroke:#ffffff;stroke-linecap:square;stroke-linejoin:miter;stroke-width:1.25;"/>
+" style="fill:none;stroke:#262626;stroke-linecap:square;stroke-linejoin:miter;stroke-width:1.25;"/>
    </g>
    <g id="patch_7">
     <path d="M 105.3 521.01 
 L 758.16 521.01 
-" style="fill:none;stroke:#ffffff;stroke-linecap:square;stroke-linejoin:miter;stroke-width:1.25;"/>
+" style="fill:none;stroke:#262626;stroke-linecap:square;stroke-linejoin:miter;stroke-width:1.25;"/>
    </g>
    <g id="patch_8">
     <path d="M 105.3 71.4528 
 L 758.16 71.4528 
-" style="fill:none;stroke:#ffffff;stroke-linecap:square;stroke-linejoin:miter;stroke-width:1.25;"/>
+" style="fill:none;stroke:#262626;stroke-linecap:square;stroke-linejoin:miter;stroke-width:1.25;"/>
    </g>
    <g id="text_14">
     <!-- 49.8% -->
@@ -1419,7 +1419,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p6552dbcb1a">
+  <clipPath id="p0526d63497">
    <rect height="449.5572" width="652.86" x="105.3" y="71.4528"/>
   </clipPath>
  </defs>

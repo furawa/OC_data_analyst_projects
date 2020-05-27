@@ -24,7 +24,7 @@ L 758.16 521.01
 L 758.16 71.4528 
 L 105.3 71.4528 
 z
-" style="fill:#eaeaf2;"/>
+" style="fill:#ffffff;"/>
    </g>
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
@@ -640,55 +640,55 @@ z
     </g>
    </g>
    <g id="QuadMesh_1">
-    <path clip-path="url(#p6d137474ee)" d="M 105.3 71.4528 
+    <path clip-path="url(#p2eae990966)" d="M 105.3 71.4528 
 L 322.92 71.4528 
 L 322.92 221.3052 
 L 105.3 221.3052 
 L 105.3 71.4528 
 " style="fill:#5e1f52;"/>
-    <path clip-path="url(#p6d137474ee)" d="M 322.92 71.4528 
+    <path clip-path="url(#p2eae990966)" d="M 322.92 71.4528 
 L 540.54 71.4528 
 L 540.54 221.3052 
 L 322.92 221.3052 
 L 322.92 71.4528 
 " style="fill:#faebdd;"/>
-    <path clip-path="url(#p6d137474ee)" d="M 540.54 71.4528 
+    <path clip-path="url(#p2eae990966)" d="M 540.54 71.4528 
 L 758.16 71.4528 
 L 758.16 221.3052 
 L 540.54 221.3052 
 L 540.54 71.4528 
 " style="fill:#2d1738;"/>
-    <path clip-path="url(#p6d137474ee)" d="M 105.3 221.3052 
+    <path clip-path="url(#p2eae990966)" d="M 105.3 221.3052 
 L 322.92 221.3052 
 L 322.92 371.1576 
 L 105.3 371.1576 
 L 105.3 221.3052 
 " style="fill:#37193f;"/>
-    <path clip-path="url(#p6d137474ee)" d="M 322.92 221.3052 
+    <path clip-path="url(#p2eae990966)" d="M 322.92 221.3052 
 L 540.54 221.3052 
 L 540.54 371.1576 
 L 322.92 371.1576 
 L 322.92 221.3052 
 " style="fill:#a8185a;"/>
-    <path clip-path="url(#p6d137474ee)" d="M 540.54 221.3052 
+    <path clip-path="url(#p2eae990966)" d="M 540.54 221.3052 
 L 758.16 221.3052 
 L 758.16 371.1576 
 L 540.54 371.1576 
 L 540.54 221.3052 
 " style="fill:#37193f;"/>
-    <path clip-path="url(#p6d137474ee)" d="M 105.3 371.1576 
+    <path clip-path="url(#p2eae990966)" d="M 105.3 371.1576 
 L 322.92 371.1576 
 L 322.92 521.01 
 L 105.3 521.01 
 L 105.3 371.1576 
 " style="fill:#271534;"/>
-    <path clip-path="url(#p6d137474ee)" d="M 322.92 371.1576 
+    <path clip-path="url(#p2eae990966)" d="M 322.92 371.1576 
 L 540.54 371.1576 
 L 540.54 521.01 
 L 322.92 521.01 
 L 322.92 371.1576 
 " style="fill:#04051a;"/>
-    <path clip-path="url(#p6d137474ee)" d="M 540.54 371.1576 
+    <path clip-path="url(#p2eae990966)" d="M 540.54 371.1576 
 L 758.16 371.1576 
 L 758.16 521.01 
 L 540.54 521.01 
@@ -1345,7 +1345,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p6d137474ee">
+  <clipPath id="p2eae990966">
    <rect height="449.5572" width="652.86" x="105.3" y="71.4528"/>
   </clipPath>
  </defs>
