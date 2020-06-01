@@ -11,7 +11,11 @@ import seaborn as sns
 import datetime
 import os
 import time
-# get_ipython().run_line_magic('matplotlib', 'inline')
+
+# Create a folder to save the file
+os.makedirs("clean_datasets", exist_ok=True)
+# Folder to save all the images
+os.makedirs("images", exist_ok = True) # Create the folder to store all the images# get_ipython().run_line_magic('matplotlib', 'inline')
 sns.set_palette("colorblind")
 sns.set_context("talk")
 sns.set(style = "dark", rc={'figure.figsize':(11.7,8.27)})
@@ -247,10 +251,7 @@ print("=======================================================================\n
 
 print("Save all the Cleaned Datasets")
 time.sleep(2)
-# Create a folder to save the file
-os.makedirs("clean_datasets", exist_ok=True)
-# Folder to save all the images
-os.makedirs("images", exist_ok = True) # Create the folder to store all the images
+
 # Save the final dataframe
 sales_clean.to_csv("clean_datasets/sales_clean.csv", index=False)
 # save the cleaned datasets
