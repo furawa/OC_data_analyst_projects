@@ -12,6 +12,7 @@ import datetime
 import scipy.stats as sci
 import time
 import statsmodels.api as sm
+import six # Necessary to plot the table
 # get_ipython().run_line_magic('matplotlib', 'inline')
 sns.set_palette("colorblind")
 sns.set_context("talk")
@@ -187,7 +188,7 @@ print("The figure has been saved in images folder")
 time.sleep(2)
 
 
-print("62\% of the sales are in category 0, 33\% in category 1 and just 5.2\% in category 2.")
+print("62/% of the sales are in category 0, 33/% in category 1 and just 5.2/% in category 2.\n")
 time.sleep(2) 
 
 print("What is the Customer's Age with highest purchases")
@@ -239,7 +240,7 @@ for i in range(3):
 
 
 print("It seems that all the outiers values are from product of category 2. Product of category 2 are the most expensives.")
-print("Most of the sales come from people aged between 30 and 55 with a peak at 42 years old.")
+print("Most of the sales come from people aged between 30 and 55 with a peak at 42 years old.\n\n")
 # 
 print("Sales by Gender")
 
@@ -300,11 +301,11 @@ plt.annotate(s="There is a huge drop in sales in October 2021",
              xytext=(2,400000),
              arrowprops={"arrowstyle":"->", "color":"red"})
 plt.yticks(fontsize=14)
-plt.savefig("images/sales_over_time.svg");
-print("The figure has been saved in images folder")
+plt.savefig("images/sales_over_time.png")
+print("The figure has been saved in images folder\n")
 time.sleep(2)
 
-print("Monthly growth rate")
+print("Monthly growth rate\n")
 # Compute the monthly sales, grouping by year and month, drop the missing values after grouping
 monthly_sales = sales_over_time.groupby(["year","month"]).price.sum().reset_index().dropna()
 # Compute the growth rate using the pct_change attribute, multiply by 100 to have the percentage
@@ -341,10 +342,11 @@ def render_mpl_table(data, col_width=3.0, row_height=0.625, font_size=14,
 # Plot the table
 render_mpl_table(monthly_growth_rate)
 # Save the figure in the image folder
-plt.savefig("images/monthly_growth_rate_table.svg")
-print("The figure has been saved in the images folder")
+plt.show()
+plt.savefig("images/monthly_growth_rate_table.png")
+print("The figure has been saved in the images folder\n")
 average_growth_rate = monthly_growth_rate["growth_rate(%)"].mean()
-print("On average we have a monthly growth rate of "+average_growth_rate+"\% even considering the huge drop ins sales of October\n.\
+print("On average we have a monthly growth rate of "+str(average_growth_rate)+"% even considering the huge drop ins sales of October\n.\
 let's go deep to see what is really happening")
 
 print("Sales in October 2021")
@@ -368,7 +370,7 @@ sns.despine(left=True)
 plt.yticks([]) # Remove the ticks
 plt.xticks(fontsize=14)
 plt.show()
-plt.savefig("images/october_category.png");
+plt.savefig("images/october_category.png")
 print("The figure has been saved in images folder")
 time.sleep(2)
 
@@ -390,7 +392,7 @@ plt.savefig("images/october_days.png");
 print("The figure has been saved in images folder")
 time.sleep(2)
 
-print"We can clearly see that from the 2th to the 27th there were no sales. Maybe there was a lack of product that period, this is to investigate.")
+print("We can clearly see that from the 2th to the 27th there were no sales. Maybe there was a lack of product that period, this is to investigate.")
 
 print("What is the day of the week with the most sales over time?")
 # Group by day and plot
