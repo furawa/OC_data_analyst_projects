@@ -1,1 +1,1 @@
-# All the projects of the Openclassrooms Data Analyst path
+# All the projects of the Openclassrooms Data Analysis Bachelor degree
